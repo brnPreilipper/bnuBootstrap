@@ -4,9 +4,16 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-/* navegação */
+/* Navegação */
 .navbar{
     padding: 0;
+    background-color: #FFCDD2;
+}
+.navbar-brand{
+   margin-left: 100px;
+}
+.navbar-collapse{
+    margin-right: 100px;
 }
 .collapse ul li a{
     display: block;
@@ -16,7 +23,7 @@
     font-size: 18px;
 }
 .collapse ul li a:hover{
-    color: white;
+    color: #ED3136;
 }
 
 /* vagas-curriculo-classificados */
@@ -87,6 +94,9 @@
 .spanbutton{
     font-size: 20px;
 }
+.banner{
+    padding: 20px 20px;
+}
 .banner a, h2 {
     text-decoration: none;
 }
@@ -100,10 +110,6 @@
 .card-text{
     height: 80px;
 }
-.btn{
-    background-color: blue;
-}
-
 .destaques1 {
     background-color: rgb(43, 171, 226);
     display: inline-block;
@@ -132,23 +138,89 @@
     padding: 4px 8px;
     margin: 10px 0;
 }
+.btn-ler{
+    background-color:#51aaf9!important;
+    color: azure!important;
+}
+.btn-ler:hover{
+    background-color:#118df9!important;
+    color: azure!important;
+}
 
-/* rodape */
-
+/* Rodape */
 .containe2{
     margin-top: 50px;
 }
+.footer1{
+    background-color:#E53935;
+}
+.row-footer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
 .texto{
     font-size: 30px;
+    color: white;
+}
+.text-center{
+    text-align: center!important;
 }
 p{
    font-size: 18px; 
+   color: white;
 }
 footer a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
+footer a:hover {
+    color: #000000;
+}
 .footer-copyright{
-    background-color: rgb(6, 185, 235);
+    background-color: #D73935;
     padding: 10px 0;
+}
+/* Pagina do Curriculo */
+.container-cv{
+    background-color:rgb(255, 205, 210, 0.4);
+    padding: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.cadCv{
+    margin-bottom: 30px;
+}
+.btn-success a{
+    color: white;
+    text-decoration: none;
+}
+
+/* pagina notcia */
+.container-noticia{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: #ED3136;
+}
+
+.card-text{
+    height: 6em;
+    color: #42484E;
+    font-size: 17px;
+    text-align: justify;
+}
+.data {
+    background-color: #42484E;
+}
+.btn-noticia{
+    height: 20px;
+}
+.Oktoberfest2{
+    background-color: #E53935;
+    
+}
+.small{
+   margin-left: 220px!important;
+   margin-right: 220px!important;
 }
