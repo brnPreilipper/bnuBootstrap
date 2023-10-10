@@ -202,25 +202,62 @@ footer a:hover {
 }
 .card{
     background-color: #ED3136;
+    margin-bottom: 50px;
 }
-
 .card-text{
-    height: 6em;
+    color: #42484E;
+    font-size: 17px;
+    text-align: justify;
+}
+.card-text2{
     color: #42484E;
     font-size: 17px;
     text-align: justify;
 }
 .data {
-    background-color: #42484E;
+    display: inline-block;
+    color: #5B5B5B;
+    padding: 5px;
+    background-color:#E4E4E4;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.Oktoberfest1 {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #ED3136;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
 }
 .btn-noticia{
     height: 20px;
 }
-.Oktoberfest2{
-    background-color: #E53935;
-    
-}
 .small{
-   margin-left: 220px!important;
-   margin-right: 220px!important;
+   margin-left: 15px!important;
+   margin-right: 15px!important;
 }
+
+
+/* aba esquerda */
+
+.btn-group-vertical{
+    box-shadow: 0 0 1px 0 #000000;
+    width: 100%;
+}
+.btn-group-vertical a{
+    width: 100%;
+    color: #E53935;
+}
+.btn-group-vertical a:hover{
+    background-color:#0000003d;
+    padding: 3px;
+}
+.btn-group-vertical .btn{
+    color:#E53935;
+}
+
+
