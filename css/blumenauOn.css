@@ -148,11 +148,12 @@
 }
 
 /* Rodape */
-.containe2{
+.container2{
     margin-top: 50px;
 }
 .footer1{
     background-color:#E53935;
+    padding: 20px;
 }
 .row-footer{
     display: grid;
@@ -202,8 +203,9 @@ footer a:hover {
 }
 .card{
     background-color: #ED3136;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
+
 .card-text{
     color: #42484E;
     font-size: 17px;
