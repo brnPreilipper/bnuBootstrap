@@ -260,4 +260,11 @@ footer a:hover {
     color:#E53935;
 }
 
+/* Página em Construção */
+
+.img-dev {
+    max-width: 100%;
+    display: block;
+    margin: 40px auto;
+}
 
